@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+
+    <!-- CSS Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <style>
+      .my-label {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <select>
+        <option style="display: none"></option>
+        <option data-value="1">Canada</option>
+        <option data-value="2">USA</option>
+        <option data-value="3">Japan</option>
+      </select>
+      <input type="file" accept=".png, jpg" multiple />
+      <div>
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+      </div>
+      <div>
+        <input type="text" required />
+        <input type="checkbox" />
+        <label class="my-label" for="">u approve</label>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label class="label-inline" for="">u like</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" />
+        <label class="label-inline">Gold</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" />
+        <label class="label-inline">Silver</label>
+      </div>
+      <div>
+        <input type="range" min="0" max="100" value="0" />
+      </div>
+    </form>
+  </body>
+</html>

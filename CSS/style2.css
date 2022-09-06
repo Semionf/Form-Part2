@@ -1,0 +1,14 @@
+form {
+  width: 300px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  margin-top: 20px;
+}
